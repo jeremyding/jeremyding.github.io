@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>TreeMath</title>
+  <title>TriMath</title>
   
-  <subtitle>2222s.</subtitle>
+  <subtitle>Service Innovation</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://treemath.com/"/>
+  <link href="http://trimath.com/"/>
   <updated>2018-05-21T09:26:54.604Z</updated>
-  <id>https://treemath.com/</id>
+  <id>http://trimath.com/</id>
   
   <author>
-    <name>TreeMath</name>
+    <name>TriMath</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo 3.2 Released</title>
-    <link href="https://treemath.com/news/2016/02/28/hexo-3-2-released/"/>
-    <id>https://treemath.com/news/2016/02/28/hexo-3-2-released/</id>
+    <link href="http://trimath.com/news/2016/02/28/hexo-3-2-released/"/>
+    <id>http://trimath.com/news/2016/02/28/hexo-3-2-released/</id>
     <published>2016-02-28T00:00:00.000Z</published>
     <updated>2018-05-21T09:26:54.604Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hexo 3.0 Released</title>
-    <link href="https://treemath.com/news/2015/03/05/hexo-3-0-released/"/>
-    <id>https://treemath.com/news/2015/03/05/hexo-3-0-released/</id>
+    <link href="http://trimath.com/news/2015/03/05/hexo-3-0-released/"/>
+    <id>http://trimath.com/news/2015/03/05/hexo-3-0-released/</id>
     <published>2015-03-05T00:00:00.000Z</published>
     <updated>2018-03-25T01:24:53.189Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>New Documentation and Registry</title>
-    <link href="https://treemath.com/news/2015/02/27/new-documentation-and-registry/"/>
-    <id>https://treemath.com/news/2015/02/27/new-documentation-and-registry/</id>
+    <link href="http://trimath.com/news/2015/02/27/new-documentation-and-registry/"/>
+    <id>http://trimath.com/news/2015/02/27/new-documentation-and-registry/</id>
     <published>2015-02-27T00:00:00.000Z</published>
     <updated>2018-03-25T01:24:53.189Z</updated>
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>Hexo 2.8 Released</title>
-    <link href="https://treemath.com/news/2014/07/13/hexo-2-8-released/"/>
-    <id>https://treemath.com/news/2014/07/13/hexo-2-8-released/</id>
+    <link href="http://trimath.com/news/2014/07/13/hexo-2-8-released/"/>
+    <id>http://trimath.com/news/2014/07/13/hexo-2-8-released/</id>
     <published>2014-07-13T00:00:00.000Z</published>
     <updated>2018-03-25T01:24:53.185Z</updated>
     
@@ -102,8 +102,8 @@
   
   <entry>
     <title>Hexo 2.7 Released</title>
-    <link href="https://treemath.com/news/2014/06/14/hexo-2-7-released/"/>
-    <id>https://treemath.com/news/2014/06/14/hexo-2-7-released/</id>
+    <link href="http://trimath.com/news/2014/06/14/hexo-2-7-released/"/>
+    <id>http://trimath.com/news/2014/06/14/hexo-2-7-released/</id>
     <published>2014-06-14T00:00:00.000Z</published>
     <updated>2018-03-25T01:24:53.185Z</updated>
     
