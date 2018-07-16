@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/news/2015/02/27/new-documentation-and-registry/</loc>
+    <loc>http://trimath.com/news/2015/03/05/hexo-3-0-released/</loc>
     
     <lastmod>2018-03-25T01:24:53.189Z</lastmod>
     
@@ -86,16 +86,9 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/news/2015/03/05/hexo-3-0-released/</loc>
+    <loc>http://trimath.com/news/2015/02/27/new-documentation-and-registry/</loc>
     
     <lastmod>2018-03-25T01:24:53.189Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trimath.com/news/2014/07/13/hexo-2-8-released/</loc>
-    
-    <lastmod>2018-03-25T01:24:53.185Z</lastmod>
     
   </url>
   
@@ -107,21 +100,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/solution/console.html</loc>
+    <loc>http://trimath.com/news/2014/07/13/hexo-2-8-released/</loc>
     
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    <lastmod>2018-03-25T01:24:53.185Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://trimath.com/solution/deployer.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trimath.com/solution/events.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -226,7 +212,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/themes.html</loc>
+    <loc>http://trimath.com/eng/solution/scaffolds.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trimath.com/solution/box.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -247,14 +240,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/data-files.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trimath.com/solution/box.html</loc>
+    <loc>http://trimath.com/eng/creative/configuration.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -268,14 +254,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/deployment.html</loc>
+    <loc>http://trimath.com/solution/console.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/generating.html</loc>
+    <loc>http://trimath.com/eng/creative/data-files.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -289,7 +275,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/internationalization.html</loc>
+    <loc>http://trimath.com/eng/creative/generating.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trimath.com/eng/creative/helpers.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -297,6 +290,13 @@
   
   <url>
     <loc>http://trimath.com/eng/creative/index.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trimath.com/eng/creative/internationalization.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/helpers.html</loc>
+    <loc>http://trimath.com/eng/creative/plugins.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -338,14 +338,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/templates.html</loc>
+    <loc>http://trimath.com/eng/creative/tag-plugins.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/plugins.html</loc>
+    <loc>http://trimath.com/eng/creative/templates.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -359,7 +359,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/tag-plugins.html</loc>
+    <loc>http://trimath.com/eng/creative/troubleshooting.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -373,13 +373,6 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/box.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://trimath.com/eng/creative/writing.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
@@ -387,7 +380,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/troubleshooting.html</loc>
+    <loc>http://trimath.com/solution/events.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -408,14 +401,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/filter.html</loc>
+    <loc>http://trimath.com/eng/solution/events.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/events.html</loc>
+    <loc>http://trimath.com/eng/solution/filter.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -429,20 +422,6 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/locals.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trimath.com/eng/solution/generator.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://trimath.com/eng/solution/index.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
@@ -450,7 +429,14 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/migrator.html</loc>
+    <loc>http://trimath.com/eng/solution/locals.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trimath.com/eng/solution/box.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -471,6 +457,20 @@
   </url>
   
   <url>
+    <loc>http://trimath.com/eng/solution/renderer.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://trimath.com/eng/solution/generator.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://trimath.com/eng/solution/router.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
@@ -478,14 +478,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/solution/scaffolds.html</loc>
-    
-    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://trimath.com/eng/solution/renderer.html</loc>
+    <loc>http://trimath.com/eng/solution/migrator.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
@@ -499,6 +492,13 @@
   </url>
   
   <url>
+    <loc>http://trimath.com/eng/solution/themes.html</loc>
+    
+    <lastmod>2018-03-25T01:24:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://trimath.com/eng/solution/rendering.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>http://trimath.com/eng/creative/configuration.html</loc>
+    <loc>http://trimath.com/eng/creative/deployment.html</loc>
     
     <lastmod>2018-03-25T01:24:53.000Z</lastmod>
     
