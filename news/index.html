@@ -58,8 +58,17 @@
 
   ga('create', 'UA-122359282-1', 'auto');
   ga('send', 'pageview');
-</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</script>
 
+  <!-- wechat online -->
+  
+  <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/e2296560.js","daovoice")
+    daovoice('init', {
+      app_id: "e2296560"
+    });
+  daovoice('update');
+  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  
 </head>
 
 <body>
@@ -71,7 +80,7 @@
     </h1>
     <nav id="main-nav">
       <a href="/news/" class="main-nav-link">新闻</a><a href="/creative/" class="main-nav-link">结构定制</a><a href="/solution/" class="main-nav-link">受托解析</a><a href="/training/" class="main-nav-link">定制培训</a><a href="/visualization/" class="main-nav-link">数据分析</a><a href="/about/" class="main-nav-link">关于我们</a>
-      <a href="http://trimath.com/" class="main-nav-link" target="_blank"><i class="fa fa-github-alt"></i></a>
+      <a href="http://chat.daovoice.io?id=e2296560" class="main-nav-link" target="_blank"><i class="fa fa-weixin"></i></a>
       <div id="search-input-wrap">
         <div id="search-input-icon">
           <i class="fa fa-search"></i>
@@ -107,43 +116,109 @@
   <header class="article-header">
     
       <h1>
-        <a href="/news/2018/08/01/trimath-begain/" class="article-title" itemprop="name">关于TriMath工作室</a>
+        <a href="/news/2019/02/28/hexo-3-2-released/" class="article-title" itemprop="name">Hexo 3.2 Released</a>
       </h1>
     
-    <a href="/news/2018/08/01/trimath-begain/" class="article-date"><time datetime="2018-08-01T00:00:00.000Z">2018-08-01</time></a>
+    <a href="/news/2019/02/28/hexo-3-2-released/" class="article-date"><time datetime="2019-02-28T00:00:00.000Z">2019-02-28</time></a>
   </header>
   <div class="article-content" itemprop="articleBody">
-    <p>TriMath工作室在水力设计、三维造型、结构设计、流体仿真、培训教程及数据分析等领域向客户提供包含如下服务内容：</p>
-<h3 id="产品设计方向" class="article-heading"><a href="#产品设计方向" class="headerlink" title="产品设计方向"></a>产品设计方向<a class="article-anchor" href="#产品设计方向" aria-hidden="true"></a></h3><ul>
-<li>泵叶轮（离心、混流、轴流）&amp; 涡壳水力设计</li>
-<li>设计说明书 &amp; 便于编译的三维源文件</li>
-<li>结构创意 &amp; 专利撰写          <a id="more"></a>
+         <p>It has been a long time that Hexo is poor at handling large website. (<a href="https://github.com/hexojs/hexo/issues/710" target="_blank" rel="noopener">#710</a>, <a href="https://github.com/hexojs/hexo/issues/1124" target="_blank" rel="noopener">#1124</a>, <a href="https://github.com/hexojs/hexo/issues/283" target="_blank" rel="noopener">#283</a>, <a href="https://github.com/hexojs/hexo/issues/1187" target="_blank" rel="noopener">#1187</a>, <a href="https://github.com/hexojs/hexo/issues/550" target="_blank" rel="noopener">#550</a>, <a href="https://github.com/hexojs/hexo/issues/1769" target="_blank" rel="noopener">#1769</a>, etc.) We tried hard to solve this problem and there’re several improvements in Hexo 3.2.</p>
+<h2 id="It’s-all-about-speed" class="article-heading"><a href="#It’s-all-about-speed" class="headerlink" title="It’s all about speed"></a>It’s all about speed<a class="article-anchor" href="#It’s-all-about-speed" aria-hidden="true"></a></h2><h3 id="Caching-rendered-contents" class="article-heading"><a href="#Caching-rendered-contents" class="headerlink" title="Caching rendered contents"></a>Caching rendered contents<a class="article-anchor" href="#Caching-rendered-contents" aria-hidden="true"></a></h3><p>Rendered contents are cached in the warehouse. This saves a lot of time and made hot processing (2nd-time processing) <strong>1.7x faster</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>3.1</th>
+<th>3.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cold processing</td>
+<td>6.094s</td>
+<td>6.454s</td>
+</tr>
+<tr>
+<td>Hot processing</td>
+<td>5.154s</td>
+<td>3.002s</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Lazy-load-language-files-of-highlight-js" class="article-heading"><a href="#Lazy-load-language-files-of-highlight-js" class="headerlink" title="Lazy load language files of highlight.js"></a>Lazy load language files of highlight.js<a class="article-anchor" href="#Lazy-load-language-files-of-highlight-js" aria-hidden="true"></a></h3><p><a href="https://github.com/hexojs/hexo/issues/1036" target="_blank" rel="noopener">highlight.js is slow</a>. Especially when it try to detect the language. Lazy load language files make processing faster and don’t have to load bunch of unused language files. However there’re some limitations:</p>
+<ul>
+<li>Auto detect must be disabled.</li>
+<li>You have to specify language in code block.<a id="more"></a>
 </li>
 </ul>
-<h3 id="仿真分析-amp-产品优化" class="article-heading"><a href="#仿真分析-amp-产品优化" class="headerlink" title="仿真分析 &amp; 产品优化"></a>仿真分析 &amp; 产品优化<a class="article-anchor" href="#仿真分析-amp-产品优化" aria-hidden="true"></a></h3><ul>
-<li>基于流体仿真进行泵水力部件优化 &amp; 结构改进 </li>
-<li>转子动力学优化 &amp; 湿动平衡 &amp; 转子振动分析等</li>
-<li>大型水库流态解析 &amp; 有害涡、空气涡防止技术</li>
+<p>You can set auto detect disabled in <code>_config.yml</code>.</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line"><span class="attr">  auto_detect:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h3 id="Templates-precompilation" class="article-heading"><a href="#Templates-precompilation" class="headerlink" title="Templates precompilation"></a>Templates precompilation<a class="article-anchor" href="#Templates-precompilation" aria-hidden="true"></a></h3><p>Theme templates are precompiled if possible. It makes generation speed <strong>2x faster</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>3.1</th>
+<th>3.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cold generation</td>
+<td>27.2s</td>
+<td>13.6s</td>
+</tr>
+<tr>
+<td>Hot generation</td>
+<td>24.4s</td>
+<td>12.6s</td>
+</tr>
+</tbody>
+</table>
+<p>The following renderers have already supported this feature.</p>
+<ul>
+<li><a href="https://github.com/hexojs/hexo-renderer-ejs" target="_blank" rel="noopener">hexo-renderer-ejs</a></li>
+<li><a href="https://github.com/hexojs/hexo-renderer-jade" target="_blank" rel="noopener">hexo-renderer-jade</a></li>
+<li><a href="https://github.com/hexojs/hexo-renderer-swig" target="_blank" rel="noopener">hexo-renderer-swig</a></li>
 </ul>
-<h3 id="教程定制-amp-培训咨询" class="article-heading"><a href="#教程定制-amp-培训咨询" class="headerlink" title="教程定制 &amp; 培训咨询"></a>教程定制 &amp; 培训咨询<a class="article-anchor" href="#教程定制-amp-培训咨询" aria-hidden="true"></a></h3><ul>
-<li>泵水力设计教程 &amp; 视频教学</li>
-<li>空冷、水冷换热器仿真分析教程，视频教学</li>
-<li>空化预测仿真技术教程</li>
-<li>结构网格定制教程</li>
-<li>自由液面  &amp; 两相流仿真教程</li>
-</ul>
-<h3 id="数据分析-amp-效果图" class="article-heading"><a href="#数据分析-amp-效果图" class="headerlink" title="数据分析 &amp; 效果图"></a>数据分析 &amp; 效果图<a class="article-anchor" href="#数据分析-amp-效果图" aria-hidden="true"></a></h3><ul>
-<li>大规模数据处理分析 &amp; 深度学习</li>
-<li>高科技效果图 &amp; 虚拟仿真技术效果图</li>
-</ul>
-<p>这个网站包含了一些案例，向您介绍我们遇到的问题和解决方案。由于只展示了一部分案例，如您有需要，欢迎联系Trimath工作室，我们期待为您提供<strong>高效</strong>、<strong>创新</strong>、<strong>竞争力</strong>、<strong>节省成本</strong>的解决方案！期待为您服务！</p>
-<p>More info: <a href="https://github.com/hexojs/hexo/issues/710" target="_blank" rel="noopener">学术成果</a>, <a href="https://github.com/hexojs/hexo/issues/710" target="_blank" rel="noopener">新闻</a>.</p>
+<p>And it’s easy to implement precompilation for renderers. Just add a <code>compile</code> function to the renderer. Take EJS renderer for example:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ejs = <span class="built_in">require</span>(<span class="string">'ejs'</span>);</span><br><span class="line"><span class="keyword">var</span> assign = <span class="built_in">require</span>(<span class="string">'object-assign'</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">ejsRenderer</span>(<span class="params">data, locals</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> ejs.render(data.text, assign(&#123;<span class="attr">filename</span>: data.path&#125;, locals));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ejsRenderer.compile = <span class="function"><span class="keyword">function</span>(<span class="params">data</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> ejs.compile(data.text, &#123;</span><br><span class="line">    filename: data.path</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = ejsRenderer;</span><br></pre></td></tr></table></figure>
+<h2 id="Include-exclude-source-files" class="article-heading"><a href="#Include-exclude-source-files" class="headerlink" title="Include/exclude source files"></a>Include/exclude source files<a class="article-anchor" href="#Include-exclude-source-files" aria-hidden="true"></a></h2><p>You can include/exclude specified source files in <code>_config.yml</code>.</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">include:</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">.htaccess</span></span><br><span class="line"></span><br><span class="line"><span class="attr">exclude:</span></span><br><span class="line"><span class="bullet">  -</span> <span class="string">tmp/**/*</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://github.com/hexojs/hexo/releases" target="_blank" rel="noopener">changelog</a>, <a href="https://docs.google.com/spreadsheets/d/1nLW3fPCtrkfMolz8UnUiKq5lqys6bIcZqrfksuvQHA0/edit?usp=sharing" target="_blank" rel="noopener">benchmark results</a>.</p>
 
+      
   </div>
   
 
 </article>
 
+
+
+        
+      
+        
+          <article class="article post archive-post" itemscope itemtype="http://schema.org/Article">
+            <a class="archive-post-link" href="/news/2018/09/17/index/">
+              <strong class="archive-post-title" itemprop="name">News</strong>
+              <span class="archive-post-date"><time datetime="2018-09-17T09:35:29.129Z">2018-09-17</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
+            </a>
+          </article>
+        
+      
+        
+          <article class="article post archive-post" itemscope itemtype="http://schema.org/Article">
+            <a class="archive-post-link" href="/news/2018/08/01/trimath-begain/">
+              <strong class="archive-post-title" itemprop="name">关于TriMath工作室</strong>
+              <span class="archive-post-date"><time datetime="2018-08-01T00:00:00.000Z">2018-08-01</time></span>
+              
+              
+              <span class="archive-post-description" >(简介:产品设计方向)riMath工作室在水力设计、三维造型、结构设计、流体仿真、培训教程及数据分析等领域向客户提供包含如下服务内容：</span>
+            </a>
+          </article>
         
       
         
@@ -151,6 +226,9 @@
             <a class="archive-post-link" href="/news/2016/02/28/hexo-3-2-released/">
               <strong class="archive-post-title" itemprop="name">Hexo 3.2 Released</strong>
               <span class="archive-post-date"><time datetime="2016-02-28T00:00:00.000Z">2016-02-28</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
             </a>
           </article>
         
@@ -160,6 +238,9 @@
             <a class="archive-post-link" href="/news/2015/03/05/hexo-3-0-released/">
               <strong class="archive-post-title" itemprop="name">Hexo 3.0 Released</strong>
               <span class="archive-post-date"><time datetime="2015-03-05T00:00:00.000Z">2015-03-05</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
             </a>
           </article>
         
@@ -169,6 +250,9 @@
             <a class="archive-post-link" href="/news/2015/02/27/new-documentation-and-registry/">
               <strong class="archive-post-title" itemprop="name">New Documentation and Registry</strong>
               <span class="archive-post-date"><time datetime="2015-02-27T00:00:00.000Z">2015-02-27</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
             </a>
           </article>
         
@@ -178,6 +262,9 @@
             <a class="archive-post-link" href="/news/2014/07/13/hexo-2-8-released/">
               <strong class="archive-post-title" itemprop="name">Hexo 2.8 Released</strong>
               <span class="archive-post-date"><time datetime="2014-07-13T00:00:00.000Z">2014-07-13</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
             </a>
           </article>
         
@@ -187,6 +274,9 @@
             <a class="archive-post-link" href="/news/2014/06/14/hexo-2-7-released/">
               <strong class="archive-post-title" itemprop="name">Hexo 2.7 Released</strong>
               <span class="archive-post-date"><time datetime="2014-06-14T00:00:00.000Z">2014-06-14</time></span>
+              
+              
+              <span class="archive-post-description" ></span>
             </a>
           </article>
         
@@ -194,10 +284,13 @@
     </div>
   </div>
 </div>
+
+
+
     <footer id="footer" class="wrapper">
   <div class="inner">
     <div id="footer-copyright">
-      &copy; 2018 <a href="http://trimath.com" target="_blank">TriMath</a><br>
+      &copy; 2019 <a href="http://trimath.com" target="_blank">TriMath</a><br>
       Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
     </div>
     <div id="footer-links">
